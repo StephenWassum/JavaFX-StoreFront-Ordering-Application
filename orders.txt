@@ -1,0 +1,19 @@
+Order Number: 10005
+Pizza 1: Supreme Pizza [Small]
+Sauce: Tomato
+Toppings: [Sausage, Pepperoni, Ham, Green Pepper, Onion, Black Olives, Mushroom]
+Extra Sauce
+Extra Cheese
+Price: $17.99
+
+Pizza 2: Supreme Pizza [Small]
+Sauce: Tomato
+Toppings: [Sausage, Pepperoni, Ham, Green Pepper, Onion, Black Olives, Mushroom]
+Price: $15.99
+
+Pizza 3: Seafood Pizza [Small]
+Sauce: Alferdo
+Toppings: [Shrimp, Squid, Crab Meats]
+Price: $17.99
+
+-------------------------------------------------------

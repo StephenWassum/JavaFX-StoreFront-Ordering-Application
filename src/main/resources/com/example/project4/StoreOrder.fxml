@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="600.0" maxWidth="800.0" minHeight="576.0" minWidth="680.0" prefHeight="576.0" prefWidth="680.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.example.project4.StoreOrderController">
+  <children>
+    <Button fx:id="RemoveOrder" layoutX="43.0" layoutY="513.0" mnemonicParsing="false" onAction="#OnRemoveOrderPressed" prefHeight="32.0" prefWidth="187.0" text="Cancel Order" />
+    <TextField fx:id="OrderPriceInput" layoutX="489.0" layoutY="73.0" prefHeight="25.0" prefWidth="127.0" />
+    <Text layoutX="17.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Number">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Text>
+    <Text layoutX="241.0" layoutY="50.0" scaleX="1.0956960643885136" scaleY="1.1332494407158837" strokeType="OUTSIDE" strokeWidth="0.0" text="Store Orders" wrappingWidth="0.0">
+      <font>
+        <Font size="36.0" />
+      </font>
+    </Text>
+    <ListView fx:id="PizzaOrderList" layoutX="14.0" layoutY="108.0" prefHeight="391.0" prefWidth="652.0" />
+    <Text layoutX="366.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Total $">
+      <font>
+        <Font size="13.0" />
+      </font>
+    </Text>
+    <ComboBox fx:id="OrderNumberComboButton" layoutX="155.0" layoutY="74.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" prefHeight="25.0" prefWidth="150.0" />
+    <Button fx:id="ExportOrder" layoutX="247.0" layoutY="513.0" mnemonicParsing="false" onAction="#OnExportOrderPressed" prefHeight="32.0" prefWidth="187.0" text="Export Store Orders" />
+    <Button id="Back" layoutX="459.0" layoutY="513.0" mnemonicParsing="false" onAction="#OnBackPressed" prefHeight="32.0" prefWidth="187.0" text="Back to Main Menu" />
+  </children>
+</AnchorPane>
