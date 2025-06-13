@@ -1,4 +1,4 @@
-# RU Pizza JavaFX Application
+# JavaFX StoreFront Application
 
 ## Overview
 This is a JavaFx ordering system, that allows users to select and customise products, place orders, and manages orders made by users,
